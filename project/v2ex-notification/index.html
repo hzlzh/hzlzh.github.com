@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Anchor-scroll : Scroll the anchor smoothly and change the browser's url at the same time." />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>V2EX 通知推送</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://gist.github.com/3737374">View on Gist</a>
+
+          <h1 id="project_title">V2EX 通知推送</h1>
+          <h2 id="project_tagline">利用HTML5 通知API来推送V2EX回复提醒</h2>
+
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>使用方法：</h3>
+
+<p>
+    <a href="javascript:void(function(){var%20d%20=%20document,a%20=%20'setAttribute',s%20=%20d.createElement('script');s[a]('tyle','text/javascript');s[a]('src','https://raw.github.com/gist/3737374/fa1fe575851ed7530e3f7237ef56709349956a45/v2ex-notification.js');d.head.appendChild(s);})();" title="V2EX 通知推送">围脖是个好图床</a>
+      &lt;&mdash; 拖拽到收藏栏</p>
+      <p>或者复制下面的内容存到收藏。</p>
+<textarea readonly="readonly"  onmouseover="this.select()" onfocus="this.select()">javascript:void(function(){var%20d%20=%20document,a%20=%20'setAttribute',s%20=%20d.createElement('script');s[a]('tyle','text/javascript');s[a]('src','https://raw.github.com/gist/3737374/fa1fe575851ed7530e3f7237ef56709349956a45/v2ex-notification.js');d.head.appendChild(s);})();</textarea>
+<p>
+源码：<a href="https://gist.github.com/3737374" target="_blank">https://gist.github.com/3737374</a></p>
+<h3>注意事项：</h3>
+<ul>
+  <li>必须在 <code>www.v2ex.com</code> 域名下使用，因为js跨域问题，务必加上 <code>www</code> </li>
+  <li>打开V2EX任何一个页面，点击已经收藏的书签执行</li>
+  <li>*首次* 使用需要点击准许浏览器使用HTML5 推送API</li>
+  <li>注：Chrome默认就有HTML 5 通知功能，Firefox需要安装一个插件 <a href="https://addons.mozilla.org/en-us/firefox/addon/html-notifications/" target="_blank"> HTML Desktop Notifications 1.0.7</a></li>
+</ul>
+
+<h3>进阶使用：</h3>
+<ul>
+  <li>使用<code>Mac 10.8</code>以上的同学可以将浏览器的通知进一步push到Mac OS自带的通知中心</li>
+  <li>Chrome 原生支持</li>
+  <li>FF 需要经过 <a href="http://growl.info/" target="_blank">Growl</a> 的配置</li>
+</ul>
+
+<h3>补充：</h3>
+<ul>
+  <li>Firefox / Chrome 测试可用，IE绕道~</li>
+  <li>使用时可以打开 Firebug 或 Chrome 元素查看器 的Console查看执行情况</li>
+  <li>任何问题反馈 <a href="https://twitter.com/hzlzh">@hzlzh</a></li>
+</ul>
+
+
+
+<p>特别感谢 V2EX上@zythum 同学的图床程序，又好用，有给了本程序布局的参考。</p>
+<h3>使用截图：</h3>
+<img src="./images/s1.png" alt="火狐下使用截图">
+<img src="./images/s2.png" alt="Chrome下使用截图">
+
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-30050785-2");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+
+  </body>
+</html>
