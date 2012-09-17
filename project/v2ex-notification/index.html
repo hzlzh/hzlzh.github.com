@@ -21,40 +21,33 @@
     <section id="main_content" class="inner">
       <h3>使用方法：</h3>
       <p>
-        <a href="javascript:void(function(){var%20d%20=%20document,a%20=%20'setAttribute',s%20=%20d.createElement('script');s[a]('tyle','text/javascript');s[a]('src','https://raw.github.com/gist/3737374/fa1fe575851ed7530e3f7237ef56709349956a45/v2ex-notification.js');d.head.appendChild(s);})();" title="V2EX 通知推送">V2EX 通知推送</a>
+        <a href="javascript:void(function(){var%20d%20=%20document,a%20=%20'setAttribute',s%20=%20d.createElement('script');s[a]('tyle','text/javascript');s[a]('src','https://raw.github.com/gist/3737374/c8126fec6ec8d9869ed6e38beed02eaefdb4f9fc/v2ex-notification.js');d.head.appendChild(s);})();" title="V2EX 通知推送">V2EX 通知推送</a>
         &lt;&mdash; 拖拽到收藏栏
       </p>
       <p>或者复制下面的内容存到收藏。</p>
-      <textarea readonly="readonly"  onmouseover="this.select()" onfocus="this.select()">javascript:void(function(){var%20d%20=%20document,a%20=%20'setAttribute',s%20=%20d.createElement('script');s[a]('tyle','text/javascript');s[a]('src','https://raw.github.com/gist/3737374/fa1fe575851ed7530e3f7237ef56709349956a45/v2ex-notification.js');d.head.appendChild(s);})();</textarea>
+      <textarea readonly="readonly"  onmouseover="this.select()" onfocus="this.select()">javascript:void(function(){var%20d%20=%20document,a%20=%20'setAttribute',s%20=%20d.createElement('script');s[a]('tyle','text/javascript');s[a]('src','https://raw.github.com/gist/3737374/c8126fec6ec8d9869ed6e38beed02eaefdb4f9fc/v2ex-notification.js');d.head.appendChild(s);})();</textarea>
       <p>
         源码：
         <a href="https://gist.github.com/3737374" target="_blank">https://gist.github.com/3737374</a>
       </p>
       <h3>注意事项：</h3>
       <ul>
-        <li>
-          必须在
-          <code>www.v2ex.com</code>
-          域名下使用，因为js跨域问题，务必加上
-          <code>www</code>
+        <li>登录并打开V2EX提醒页面：<a href="http://www.v2ex.com/notifications" target="_blank">http://www.v2ex.com/notifications</a>
         </li>
-        <li>打开V2EX任何一个页面，点击已经收藏的书签执行</li>
+        <li>点击已经收藏的书签执行，程序会自动抓取到`页脚的`XML地址</li>
         <li>*首次* 使用需要点击准许浏览器使用HTML5 推送API</li>
-        <li>
-          注：Chrome默认就有HTML 5 通知功能，Firefox需要安装一个插件
+        <li>注：Chrome默认就有HTML 5 通知功能，Firefox需要安装一个插件
           <a href="https://addons.mozilla.org/en-us/firefox/addon/html-notifications/" target="_blank">HTML Desktop Notifications 1.0.7</a>
         </li>
       </ul>
       <h3>进阶使用：</h3>
       <ul>
-        <li>
-          使用
+        <li>使用
           <code>Mac 10.8</code>
           以上的同学可以将浏览器的通知进一步push到Mac OS自带的通知中心
         </li>
         <li>Chrome 原生支持</li>
-        <li>
-          FF 需要经过
+        <li>FF 需要经过
           <a href="http://growl.info/" target="_blank">Growl</a>
           的配置
         </li>
@@ -64,8 +57,7 @@
       <ul>
         <li>Firefox / Chrome 测试可用，IE绕道~</li>
         <li>使用时可以打开 Firebug 或 Chrome 元素查看器 的Console查看执行情况</li>
-        <li>
-          任何问题反馈 V2EX ->
+        <li>任何问题反馈 V2EX ->
           <a href="http://www.v2ex.com/t/47938" target="_blank">#47938</a>
           | 
           Twitter ->
